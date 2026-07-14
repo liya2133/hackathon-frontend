@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Nav from './Nav'
 
 const ViewTeam = () => {
 
@@ -19,6 +20,7 @@ const ViewTeam = () => {
 
     return (
         <div>
+            <Nav/>
             <div className="container mt-4">
                 <h2 className="text-center mb-4">
                     <b><i>View Teams</i></b>
